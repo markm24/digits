@@ -4,7 +4,7 @@ import { Container, Header, Loader, Card } from 'semantic-ui-react';
 import { Contacts } from '/imports/api/contact/contact';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import ContactAdmin from '/imports/ui/components/ContactAdmin'
+import ContactAdmin from '/imports/ui/components/ContactAdmin';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 class ListContactsAdmin extends React.Component {
@@ -20,7 +20,7 @@ class ListContactsAdmin extends React.Component {
         <Container>
           <Header as="h2" textAlign="center" inverted>List Contacts</Header>
           <Card.Group>
-            {this.props.contacts.map((contact, index)=> <ContactAdmin key={index} contact={contact} />)}
+            {this.props.contacts.map((contact, index) => <ContactAdmin key={index} contact={contact} />)}
           </Card.Group>
         </Container>
     );

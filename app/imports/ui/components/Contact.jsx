@@ -29,7 +29,12 @@ class Contact extends React.Component {
 
   /** On submit, insert the data. */
   onClick() {
-    Contacts.remove(this.props.contact._id, this.deleteCallback);
+    /* eslint-disable-next-line */
+    if (confirm('Do you really want to delete this contact?')) {
+      Contacts.remove(this.props.contact._id, this.deleteCallback);
+    } else {
+      Bert.alert({ type: 'success', message: 'Contact not deleted' });
+    }
   }
 
   render() {

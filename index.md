@@ -36,7 +36,7 @@ Once logged in, your home page will look like this, where you can now access the
 To add a contact, you would click 'Add Contact' in the upper left menu. In that menu, you would have to input a first name, last name, address, image, and description of the contact and press submit.
 
 <h3>The List Contacts page</h3>
-<img src="/doc/Digits_ListContact.png">
+<img src="/doc/Digits_ListContacts.png">
 
 Once you have contacts, in the 'List Contacts' page that you can reach from that option in the upper left menu, your existing contacts are displayed as in the image. There is also a note feature, in which a timestamped note will be attached to that contact. A note can be created simply by typing something into the 'Add a timestamped note' section of that contact's card and pressing 'Submit'. You can also edit the contact's information using the 'Edit' link on each contact's card. This will redirect you to a page that will be discussed next.
 
